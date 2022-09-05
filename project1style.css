@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:wght@300&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headermaindiv {
+    display: flex;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.firstlinks {
+    display: flex;
+    float: left;
+    left: 30cm;
+    position: absolute;
+    list-style: none;
+    top: 57px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* for homelink */
+.home {
+    margin: 0px 69px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 30px;
+    position: sticky;
+}
+
+.home a {
+    text-decoration: none;
+    top: 69px;
+    display: inline-block;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home ul {
+    list-style: none;
+    top: 11px;
+    color: #03b129;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home:hover {
+    font-size: 120%;
+}
+
+/* for aboutlink */
+.about {
+    cursor: pointer;
+    transition: 0.5s;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 191px;
+}
+
+.about a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.about ul {
+    list-style: none;
+    position: absolute;
+    top: 12px;
+    color: #03b129;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about:hover {
+    font-size: 120%;
+}
+
+/* for servicelink */
+.service {
+    position: absolute;
+    left: 309px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.service a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.service ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 11px;
+    color: #03b129;
+}
+
+.service:hover {
+    font-size: 120%;
+}
+
+/* for portfolio */
+.portfolio {
+    position: absolute;
+    left: 12cm;
+    top: -2px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.portfolio ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 13px;
+    color: #03b129;
+}
+
+.portfolio:hover {
+    font-size: 120%;
+}
+
+/* contact */
+.contact {
+    position: absolute;
+    left: 16cm;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact ul {
+    list-style: none;
+    top: 11px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #03b129;
+}
+
+.contact:hover {
+    font-size: 120%;
+}
+
+/* main */
+/* firstsection */
+
+.firstsection {
+    height: 675px;
+    overflow: hidden;
+}
+
+.firstimg img {
+    width: 100vw;
+    height: 35vw;
+    top: 17px;
+    position: relative;
+}
+
+.firstline {
+    position: relative;
+    z-index: 3;
+    bottom: 415px;
+    left: 123px;
+    font-weight: 1000;
+    border-bottom: 5px solid #ff5400;
+    width: 89px;
+    color: #ff5400;
+}
+
+.firstheading {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    z-index: 2;
+    position: relative;
+    left: 121px;
+    bottom: 11cm;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.firstbutton {
+    position: relative;
+    bottom: 406px;
+    left: 117px;
+    background-color: #ff5400;
+    width: 101px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.firstbutton button {
+    background: transparent;
+    border: none;
+    left: 14px;
+    position: absolute;
+    top: 9px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}
+
+/* second section */
+
+.secondsection {
+    position: relative;
+    top: 14px;
+    height: 700px;
+}
+
+.secondlinks {
+    text-transform: capitalize;
+}
+
+.secondlinks ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 28px;
+    position: relative;
+}
+
+.secondlinks ul li {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    margin: 0px 0px 0px 57px;
+    list-style: none;
+    font-size: 19px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.secondlinks ul li:hover {
+    box-shadow: 0px 1px 5px 2px black;
+    top: 5px;
+    border-radius: 6px;
+}
+
+.secondlinks ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondlinks ul li p {
+    text-align: center;
+    width: 91px;
+    height: 59px;
+    padding: 0px 9px;
+}
+
+.secondlinks ul li p:hover {
+    color: rgb(244, 244, 248);
+}
+
+.secondlinks ul li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ff5400;
+    transition: 0.6s;
+    z-index: -1;
+    border-radius: 6px;
+    transform: translateY(-100%);
+}
+
+.secondlinks ul li:hover::before {
+    transform: translateY(0);
+}
+
+.secondimg {
+    position: absolute;
+    top: 179px;
+    left: 95px;
+}
+
+.secondheading h1 {
+    position: absolute;
+    right: 187px;
+    top: 173px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.firstpara {
+    position: relative;
+    width: 709px;
+    left: 30cm;
+    top: 173px;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: -8px 0px;
+}
+
+.details {
+    position: absolute;
+    right: 507px;
+    top: 438px;
+    background-color: #ff5500;
+    width: 141px;
+    height: 47px;
+    border-radius: 14px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.details p {
+    position: relative;
+    text-align: center;
+    line-height: 2.2;
+}
+
+.client {
+    cursor: pointer;
+    width: 160px;
+    position: relative;
+    top: 432px;
+    left: 233px;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 2;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 81px;
+    text-transform: capitalize;
+}
+
+.client p {
+    position: relative;
+    line-height: 42px;
+    bottom: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.secondline {
+    color: #f50;
+    font-weight: bolder;
+    left: 10px;
+}
+
+.secondclient {
+    width: 156px;
+    height: 56px;
+    text-align: center;
+    left: -6px;
+}
+
+.secondclient:hover {
+    color: white;
+}
+
+.client::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 20px;
+    transform: translateX(100%);
+    transition: 0.6s;
+
+}
+
+.client:hover::before {
+    transform: translateX(0);
+}
+
+.icons {
+    top: 163px;
+    position: relative;
+    left: 78px;
+    height: 397px;
+    width: 0;
+}
+
+.thirdimg {
+    position: relative;
+    top: 5cm;
+    width: 125px;
+    left: 16cm;
+    border-radius: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.thirdimg img {
+    display: inline-block;
+    width: 3cm;
+    left: 7px;
+    position: relative;
+    top: 6px;
+}
+
+.fourthimg {
+    display: inline-block;
+    width: 148px;
+    height: 116px;
+    position: relative;
+    left: 24cm;
+    top: 71px;
+    background-color: grey;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.fourthimg img {
+    position: relative;
+    width: 125px;
+    top: 11px;
+    left: 12px;
+}
+
+.fifthimg {
+    width: 166px;
+    height: 114px;
+    position: relative;
+    left: 1211px;
+    bottom: 43px;
+    background-color: gray;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.fifthimg img {
+    width: 146px;
+    position: relative;
+    left: 10px;
+    border-radius: 83px;
+}
+
+.sixthimg {
+    position: relative;
+    bottom: 158px;
+    width: 152px;
+    left: 1528px;
+    height: 116px;
+    background-color: gray;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+.sixthimg img {
+    width: 133px;
+    position: relative;
+    left: 9px;
+    bottom: -13px;
+}
+
+.thirdsection {
+    position: relative;
+    top: 6cm;
+    height: 17cm;
+}
+
+.seventhimg {
+    position: relative;
+    height: 100%;
+}
+
+.seventhimg img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 1;
+}
+
+.seventhimg::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.thirdheading {
+    position: relative;
+    top: -15cm;
+    font-size: 55px;
+    line-height: 10px;
+    z-index: 2;
+}
+
+.thirdheading p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.secondpara {
+    text-align: center;
+    bottom: 14cm;
+    position: relative;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.fullnameinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 13cm;
+    z-index: 2;
+}
+
+.fullnameinput input {
+    font-size: 26px;
+    border-radius: 31px;
+    padding: 0px 9px;
+    height: 46px;
+    outline: none;
+}
+
+.emailnumberinput {
+    text-align: center;
+    position: relative;
+    bottom: 12cm;
+    z-index: 2;
+}
+
+.emailnumberinput input {
+    margin: 0px 52px;
+    font-size: 26px;
+    border-radius: 31px;
+    padding: 0px 9px;
+    height: 46px;
+    outline: none;
+}
+
+.text {
+    bottom: 11cm;
+    position: relative;
+    z-index: 2;
+    height: 260px;
+}
+
+.text textarea {
+    font-size: 27px;
+    top: 6px;
+    position: relative;
+    left: 592px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px 0px 0px 8px;
+    height: 94%;
+    width: 36%;
+    outline: none;
+}
+
+.secondbutton {
+    position: absolute;
+    right: 444px;
+    bottom: 22px;
+    z-index: 2;
+}
+
+.secondbutton button {
+    font-size: 32px;
+    padding: 4px 14px;
+    border-radius: 20px;
+    top: 0px;
+    position: relative;
+    color: white;
+    background-color: #f50;
+    border: none;
+    left: 1px;
+    cursor: pointer;
+}
+
+.forthsection {
+    position: relative;
+    top: 6cm;
+    height: 11cm;
+    background-color: #2f5166;
+    overflow: hidden;
+}
+.forthheading img {
+    width: 158px;
+    position: relative;
+    left: 180px;
+    top: 1cm;
+}
+
+.thirdpara {
+    width: 10cm;
+    position: relative;
+    top: 56px;
+    left: 68px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.fifthheading {
+    width: 194px;
+    position: relative;
+    left: 16cm;
+    top: -195px;
+    font-size: 1cm;
+    text-transform: capitalize;
+    color: white;
+}
+
+.fifthheading::before {
+    content: '___';
+    height: 100%;
+    z-index: 11;
+    transform: translatey(100%);
+    top: -47px;
+    position: absolute;
+    color: #f50;
+    font-weight: 1000;
+    font-size: 55px;
+}
+.thirdlinks ul {
+    position: relative;
+    left: 623px;
+    width: 107px;
+    top: -133px;
+}
+
+.thirdlinks ul li {
+    list-style: none;
+    line-height: 2;
+    font-size: 25px;
+    position: relative;
+    bottom: 33px;
+}
+
+.thirdlinks ul li a {
+    text-decoration: none;
+    color: white;
+}
